@@ -14,7 +14,7 @@ h2 {
 p {
     color: grey;
 }
-.name-highlight {
+.orange-highlight {
     color: orange;
 }
 .half-width {
@@ -47,4 +47,29 @@ section {
     background-repeat: no-repeat;
     background-position: right;
      
+}
+.bottom-box {
+    box-shadow:10px 10px 40px gray;
+    border-radius: 10px;
+    height: 80%;
+}
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(248, 171, 178), rgb(228, 30, 80));
+    border-image-slice: 1;
+}
+#baby-stack {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(63, 178, 245), rgb(10, 10, 173));
+    border-image-slice: 1;
+
+}
+footer {
+    text-align: center;
+    font-size: 12px;
 }
